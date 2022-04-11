@@ -7,12 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HR", "HR", "{041CF237-0997-4B27-AF82-9F17BE3AEC0A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.API", "Services\HR\HR.API\HR.API.csproj", "{D551C9CB-5A09-4C64-A3ED-0CE510C12C69}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{16A5C839-6AAC-4DA0-B7C7-8E73734963D2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D551C9CB-5A09-4C64-A3ED-0CE510C12C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D551C9CB-5A09-4C64-A3ED-0CE510C12C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D551C9CB-5A09-4C64-A3ED-0CE510C12C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D551C9CB-5A09-4C64-A3ED-0CE510C12C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A5C839-6AAC-4DA0-B7C7-8E73734963D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A5C839-6AAC-4DA0-B7C7-8E73734963D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A5C839-6AAC-4DA0-B7C7-8E73734963D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A5C839-6AAC-4DA0-B7C7-8E73734963D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{041CF237-0997-4B27-AF82-9F17BE3AEC0A} = {FBDBE90B-200F-4EAC-9A64-CCB444B3346F}
+		{D551C9CB-5A09-4C64-A3ED-0CE510C12C69} = {041CF237-0997-4B27-AF82-9F17BE3AEC0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3665FC0D-5FF5-4496-9C43-B4241723DC94}
